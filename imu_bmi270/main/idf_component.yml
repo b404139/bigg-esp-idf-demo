@@ -1,0 +1,12 @@
+## IDF Component Manager Manifest File
+dependencies:
+  idf: '>=5.0'
+
+  espressif2022/bmi270: ^1.1.0
+  espressif/led_strip: "^3.0.0"
+  espressif/button:
+    public: true
+    version: ^4
+  espressif/touch_button_sensor:
+    public: true
+    version: ^0.2.1
